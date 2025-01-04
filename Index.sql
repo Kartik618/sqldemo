@@ -4,10 +4,22 @@ create database DemoSQL;
 -- how to use database?
 Use DemaSQL;
 
+-- write DDL command in SQL server?
+
+-- create
 -- how to create table in SQL server?
 --syntax
  CREATE TABLE <TABLE_NAME>(COLUN_NAME1 <DATATYPE>[SIZE], COLUMN_NAME2 <DATATYPE>[SIZE]
  ......... COLUMN_NAME_n<DATATYPE>[SIZE])
+
+-- Alter
+-- SP_rename
+
+-- truncate
+TRUNCATE TABLE <TABLE_NAME>;
+-- drop 
+-- write syntax for drop table ?
+DROP TABLE <TABLE_NAME>;
 
 -- WRITE A DML OPERATION?
  -- how to insert data into sql table ?
