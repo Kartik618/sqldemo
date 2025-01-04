@@ -1,5 +1,7 @@
+--How to create database in SQL ;
 create database DemoSQL;
 
+-- how to use database?
 Use DemaSQL;
 
 -- how to create table in SQL server?
@@ -7,6 +9,7 @@ Use DemaSQL;
  CREATE TABLE <TABLE_NAME>(COLUN_NAME1 <DATATYPE>[SIZE], COLUMN_NAME2 <DATATYPE>[SIZE]
  ......... COLUMN_NAME_n<DATATYPE>[SIZE])
 
+-- WRITE A DML OPERATION?
  -- how to insert data into sql table ?
  INSERT INTO  <TABLE_NAME> VALUES(VALUE_1,VALUE_2, VALUE_3............VALUE_n);
 
@@ -16,3 +19,10 @@ Use DemaSQL;
  SET COLUN_NAME1=VALUE_1,COLUMN_NAME2=VALUE_2, COLUMN_NAME3=VALUE_3.......
      COLUMN_NAME_n=VALUE_n
  WHERE COLUMN_NAME4=VALUE_4;    
+
+ --how to delete data from table?
+ DELETE FROM <TABLE_NAME> WHERE COLUMN_NAME2=VALUE_2;
+
+
+
+
